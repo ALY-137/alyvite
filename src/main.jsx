@@ -17,9 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <App />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/contato' element={<Contato />} />
-        <Route path='/sobre' element={<Sobre />} />
+        <Route path='/alyvite/' element={<Home />} />
+        <Route path='/alyvite/contato' element={<Contato />} />
+        <Route path='/alyvite/sobre' element={<Sobre />} />
 
         
       </Routes>
